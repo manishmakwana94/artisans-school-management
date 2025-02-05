@@ -1,0 +1,32 @@
+.capitalize-text {
+    text-transform: capitalize;
+}
+
+/* Custom class for full width popup */
+.swal2-popup.full-width {
+    width: 100% !important; /* Make the popup full width */
+    max-width: 100% !important; /* Ensure it does not exceed 100% */
+    padding: 20px; /* Optional: Add padding for aesthetics */
+}
+
+/* Adjust the content container inside SweetAlert */
+.swal2-html-container {
+    width: 100% !important; /* Ensure the content container takes the full width */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    word-wrap: break-word; /* Ensure long words break to next line */
+    max-width: 100%;
+}
+
+/* Table styling inside the SweetAlert */
+.swal2-html-container .table {
+    width: 95% !important; /* Ensure the table stretches to fit the width */
+    table-layout: auto; /* Adjust table columns automatically */
+}
+
+.swal2-html-container .table td, .table th {
+    word-wrap: break-word;
+    white-space: normal;
+    
+}
+
+
